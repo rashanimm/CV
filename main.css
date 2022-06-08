@@ -3,6 +3,8 @@ html {
 }
 body {
     margin: 0;
+    background-color: #E8F9FD;
+    font-family: 'Outfit', sans-serif;
 }
 
 header {
@@ -13,6 +15,11 @@ header h1 {
     margin-bottom: 0;
     margin-top: 0;
     font-size: 4em;
+    
+}
+
+#top a {
+    color: white;
 }
 
 img {
@@ -38,12 +45,30 @@ section h2 {
 }
 
 footer p a {
-   font-size: 1.5em;
+    font-size: 1.5em;
+    height: 10em;
+    width: 10em;
+    color: white;
 }
 
 footer p{
-    margin-top: 0;
-    padding: 5em;
+    margin: 0;
+    padding: 4em;
+    display: inline-block;
+    
+}
+td {
+    color: white;
+    
+}
+th {
+    color: #EFEFEF;
+    background-color: #112B3C;
+}
+
+#middle td {
+    background-color: #112B3C;
+    border-radius: 0.5em;
 }
 
 #top {
@@ -54,4 +79,29 @@ footer p{
 }
 #bottom {
     background-color: #EFEFEF;
+}
+
+#first {
+    background-color: #C2DED1;
+    border-radius: 0.5em;
+}
+
+#second {
+    background-color: #ECE5C7;
+    border-radius: 0.5em;
+}
+
+#third {
+    background-color: #CDC2AE;
+    border-radius: 0.5em;
+}
+
+#fourth {
+    background-color: #354259;
+    border-radius: 0.5em;
+}
+
+a:hover {
+    background-color: black;
+    border-radius: 0.2em;
 }
